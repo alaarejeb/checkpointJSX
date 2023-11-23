@@ -1,7 +1,9 @@
 import React from "react";
+import product from "./product";
 
-const Image = ({ image }) => {
-  return <img src={image} alt="Product" className="product-image" />;
+
+const Image = () => {
+  return <img src={product.image} alt="Product" className="product-image" />;
 };
 
 export default Image;
